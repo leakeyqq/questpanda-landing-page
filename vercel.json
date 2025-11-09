@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://app.questpanda.xyz/:path*",
+      "permanent": false
+    }
+  ]
+}
