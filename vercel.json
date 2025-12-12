@@ -1,8 +1,28 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://app.questpanda.xyz/:path*",
+      "source": "/quests/:path*",
+      "destination": "https://questpanda.app/quests/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/dashboard",
+      "destination": "https://questpanda.app/dashboard",
+      "permanent": false
+    },
+    {
+      "source": "/brand",
+      "destination": "https://questpanda.app/brand",
+      "permanent": false
+    },
+    {
+      "source": "/404",
+      "destination": "https://questpanda.app",
+      "permanent": false
+    },
+    {
+      "source": "/leaderboard",
+      "destination": "https://questpanda.app/leaderboard",
       "permanent": false
     }
   ]
